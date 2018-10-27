@@ -12,6 +12,14 @@
       "name": "Find Role"
     },
     {
+      "role": "3",
+      "varName": "role",
+      "info": "2",
+      "storage": "1",
+      "varName2": "name",
+      "name": "Store Role Info"
+    },
+    {
       "member": "1",
       "varName": "",
       "role": "3",
@@ -32,7 +40,7 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "${member}, you have been handed the **Arma** role! Enjoy!\n",
+      "message": "${member}, you have been handed the **${tempVars(\"name\")}** role! Enjoy!\n",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"
@@ -43,7 +51,7 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "${member} Hmm, it seems that you have already been given the **Arma** role. Would you like me to remove that for you?",
+      "message": "${member} Hmm, it seems that you have already been given the **${tempVars(\"name\")}** role. Would you like me to remove that for you?",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"
@@ -72,7 +80,7 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "Alrighty, ${member} I have removed the **Arma** role from you!",
+      "message": "Alrighty, ${member} I have removed the **${tempVars(\"name\")}** role from you!",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"

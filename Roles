@@ -2,104 +2,13 @@
   "name": "roles",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "jlRAE",
+  "_id": "dBPBo",
   "actions": [
     {
       "info": "1",
       "find": "Arma",
       "storage": "1",
       "varName": "arma",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Conan",
-      "storage": "1",
-      "varName": "conan",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "CS:GO",
-      "storage": "1",
-      "varName": "csgo",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Eco",
-      "storage": "1",
-      "varName": "eco",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "EFT",
-      "storage": "1",
-      "varName": "eft",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Minecraft",
-      "storage": "1",
-      "varName": "minecraft",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Miscreated",
-      "storage": "1",
-      "varName": "miscreated",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "PUBG",
-      "storage": "1",
-      "varName": "pubg",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Racer",
-      "storage": "1",
-      "varName": "racer",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "SCUM",
-      "storage": "1",
-      "varName": "scum",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Sea of Thieves",
-      "storage": "1",
-      "varName": "seaofthieves",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Truckers",
-      "storage": "1",
-      "varName": "truckers",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "WoW",
-      "storage": "1",
-      "varName": "wow",
-      "name": "Find Role"
-    },
-    {
-      "info": "1",
-      "find": "Ylands",
-      "storage": "1",
-      "varName": "ylands",
       "name": "Find Role"
     },
     {
@@ -111,102 +20,6 @@
       "name": "Store Role Things"
     },
     {
-      "role": "3",
-      "varName": "conan",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountc",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "csgo",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountcs",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "eco",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcounte",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "eft",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountef",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "minecraft",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountm",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "miscreated",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountmis",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "racer",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountr",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "scum",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcounts",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "seaofthieves",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountsot",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "truckers",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountt",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "wow",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountw",
-      "name": "Store Role Things"
-    },
-    {
-      "role": "3",
-      "varName": "ylands",
-      "info": "4",
-      "storage": "1",
-      "varName2": "rcountyl",
-      "name": "Store Role Things"
-    },
-    {
       "title": "",
       "author": "",
       "color": "#2256bf",
@@ -214,7 +27,7 @@
       "url": "",
       "authorIcon": "",
       "imageUrl": "",
-      "thumbUrl": "https://i.imgur.com/PpseLhC.png",
+      "thumbUrl": "",
       "storage": "1",
       "varName": "ranks",
       "name": "Create Embed Message"
@@ -222,8 +35,8 @@
     {
       "storage": "1",
       "varName": "ranks",
-      "fieldName": "Savage Gaming Roles",
-      "message": "**- Arma** `${tempVars(\"rcounta\")} members` \n**- Conan** `${tempVars(\"rcountc\")} members`\n**- CS:GO** `${tempVars(\"rcountcs\")} members`\n**- ECO** `${tempVars(\"rcounte\")} members`\n**- EFT** `${tempVars(\"rcountef\")} members`\n**- Minecraft** `${tempVars(\"rcountm\")} members`\n**- Miscreated** `${tempVars(\"rcountmis\")} members`\n**- Racer** `${tempVars(\"rcountr\")} members`\n**- SCUM** `${tempVars(\"rcounts\")} members`\n**- SeaOfThieves** `${tempVars(\"rcountsot\")} members`\n**- Truckers** `${tempVars(\"rcountt\")} members`\n**- WoW** `${tempVars(\"rcountw\")} members`\n**- Ylands** `${tempVars(\"rcountyl\")} members`\n",
+      "fieldName": "Roles",
+      "message": "**- Arma** `${tempVars(\"rcounta\")} members` \n\n",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -231,7 +44,7 @@
       "storage": "1",
       "varName": "ranks",
       "message": "To obtain one of the above roles, type ![role]",
-      "footerIcon": "https://i.imgur.com/1Mn4AYK.png",
+      "footerIcon": "",
       "name": "Set Embed Footer"
     },
     {

@@ -1,0 +1,35 @@
+{
+  "name": "ranks",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "OEPOr",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Looking to grab yourself a new role within the Discord? Well here is how you can get that done! :smile:\n\n**-** Type **!roles** in order to check out what is on offer\n**-** After you know what you want, type **![role]** and I will give it to you! \n\nWould you like me to show you the roles? If so. type `yes`.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "filter": "content.includes('yes')",
+      "max": "1",
+      "time": "60000",
+      "storage2": "0",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Await Response Call Action"
+    },
+    {
+      "source": "jlRAE",
+      "type": "true",
+      "name": "Call Command/Event"
+    }
+  ]
+}
